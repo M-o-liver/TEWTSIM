@@ -1,7 +1,12 @@
 <?php
 
 $apiloc = 'keys/openaikey.txt';
-$openaikey = fopen($apiloc, "r");
+
+$openaikey = @fopen($apiloc, "r");
+if (!$openaikey) {
+    error_log("Failed to open API key file: " . $apiloc);
+    die("Unable to access API key");
+}
 
 if ($openaikey) {
     $apiKey = fread($openaikey, filesize($apiloc));
