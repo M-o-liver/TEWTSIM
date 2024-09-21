@@ -23,38 +23,70 @@ if ($result && mysqli_num_rows($result) > 0) {
     $username = "Unknown";
 }
 
-// Retrieve mission reports
-$query = "SELECT id, mission_id, story, final_summary
-          FROM mission_results
-          WHERE user_id = $user_id";
-$result = $conn->query($query);
-
+// Initialize variables
 $mission_reports = [];
-if (mysqli_num_rows($result) > 0) {
-    $mission_reports = mysqli_fetch_all($result, MYSQLI_ASSOC);
-}
+$no_mission_reports = false;
+$error_message = '';
 
-// Extract mission_ids from mission_reports
-$mission_ids = array_column($mission_reports, 'mission_id');
-
-// Retrieve mission names
-$mission_ids_string = implode(',', $mission_ids);
-$query = "SELECT mission_id, mission_name
-          FROM missions
-          WHERE mission_id IN ($mission_ids_string)";
-$result = $conn->query($query);
-
-$mission_names = [];
-if (mysqli_num_rows($result) > 0) {
-    while ($row = mysqli_fetch_assoc($result)) {
-        $mission_names[$row['mission_id']] = $row['mission_name'];
+try {
+    // Retrieve mission reports
+    $query = "SELECT id, mission_id, story, final_summary
+              FROM mission_results
+              WHERE user_id = ?";
+    $stmt = $conn->prepare($query);
+    if (!$stmt) {
+        throw new Exception("Prepare failed: " . $conn->error);
     }
+    
+    $stmt->bind_param("i", $user_id);
+    if (!$stmt->execute()) {
+        throw new Exception("Execute failed: " . $stmt->error);
+    }
+    
+    $result = $stmt->get_result();
+    $mission_reports = $result->fetch_all(MYSQLI_ASSOC);
+    $stmt->close();
+
+    if (!empty($mission_reports)) {
+        // Extract mission_ids from mission_reports
+        $mission_ids = array_column($mission_reports, 'mission_id');
+        $mission_ids_string = implode(',', array_fill(0, count($mission_ids), '?'));
+
+        // Retrieve mission names
+        $query = "SELECT mission_id, mission_name
+                  FROM missions
+                  WHERE mission_id IN ($mission_ids_string)";
+        $stmt = $conn->prepare($query);
+        if (!$stmt) {
+            throw new Exception("Prepare failed: " . $conn->error);
+        }
+        
+        $stmt->bind_param(str_repeat('i', count($mission_ids)), ...$mission_ids);
+        if (!$stmt->execute()) {
+            throw new Exception("Execute failed: " . $stmt->error);
+        }
+        
+        $result = $stmt->get_result();
+        $mission_names = [];
+        while ($row = $result->fetch_assoc()) {
+            $mission_names[$row['mission_id']] = $row['mission_name'];
+        }
+        $stmt->close();
+
+        // Add mission_name to each mission report
+        foreach ($mission_reports as &$report) {
+            $report['mission_name'] = $mission_names[$report['mission_id']] ?? 'Unknown';
+        }
+    } else {
+        $no_mission_reports = true;
+    }
+} catch (Exception $e) {
+    $error_message = "An error occurred: " . $e->getMessage();
+    error_log($error_message);
 }
 
-// Add mission_name to each mission report
-foreach ($mission_reports as &$report) {
-    $report['mission_name'] = $mission_names[$report['mission_id']] ?? 'Unknown';
-}
+// Close the database connection
+$conn->close();
 ?>
 
 
