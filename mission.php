@@ -252,7 +252,7 @@ mysqli_close($conn);
                 tab.addEventListener('click', switchTab);
             });
         });
-        window.onload = startTimer;
+
     </script>
 </head>
 <body>
