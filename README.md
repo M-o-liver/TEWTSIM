@@ -1,37 +1,64 @@
 # TEWTSIM: Tactical Exercise Without Troops Simulator
 
-TEWTSIM is a web-based application designed to support military training through simulated tactical decision-making exercises. This tool aims to bring Tactical Decision Games (TDGs) into a digital format, offering an interactive platform for soldiers and officers to practice their skills.
+TEWTSIM is a cutting-edge web-based application designed to revolutionize military training through immersive tactical decision-making simulations. This innovative tool digitizes Tactical Decision Games (TDGs), providing an interactive platform for soldiers and officers to hone their critical thinking and decision-making skills.
 
-Log in-to tewtsim.ca with "Ranger" as your codename, and "Red" as your password to see example complete situations!
+🔐 **Try it out!** Log in to [tewtsim.ca](https://tewtsim.ca) using:
+- Codename: "Ranger"
+- Password: "Red"
 
-## Gameplay
+## 🎮 Gameplay
 
-**Login**:
-- Users can login with a name of their choice. Passwords have been replaced with colors to minimize the risk of compromising real-world passwords on a website run on XAMPP.
-- A 'secret handshake' sign-up question is used to minimize online threat surface: "What is the MOSID of the Infantry (00180)"
+### 👤 Login
+- Choose your own codename
+- Colors used as passwords for enhanced security
+- 🤫 Secret handshake: "What is the MOSID of the Infantry (00180)"
 
-**Mission Start Page**:
-- Allows users to choose between situations at the platoon or section level, and review their past missions.
+### 🏁 Mission Start Page
+- Choose your challenge:
+  - 🔵 Platoon-level situations
+  - 🟢 Section-level situations
+- 📜 Review your past missions
 
-**Mission Brief Page**:
-- Split into two sections: Mission Briefing on the left, and notes/Combat Estimate PDF on the right. 
-- Users have 10 minutes to analyze the situation and make notes. Possible suggestion: Enemy Courses of Action.
+### 📋 Mission Brief Page
+| Left Panel | Right Panel |
+|------------|-------------|
+| Mission Briefing | Notes & Combat Estimate PDF |
 
-**Mission Questions Page**:
-- Users have 10 minutes to answer 8 questions about the situation using their notes (questions are designed to mirror deductions from the Estimate process).
-- Users are then asked to produce a FRAG-O for their team.
+⏳ 10-minute countdown to analyze and strategize
+💡 Pro tip: Consider Enemy Courses of Action
 
-**Mission Results Page**:
-- An AI-generated story attempts to provide a realistic outcome based on the user's answers.
-- The AI provides feedback on the user's responses compared to a doctrinal solution, offering 3 points to improve and 3 points to sustain.
-- Users receive a final grade and summary.
+### ❓ Mission Questions Page
+- ⏱️ 10 minutes to answer 8 situational questions
+- 📝 Utilize your notes from the briefing
+- 🎖️ Craft a FRAG-O for your team
 
-## Key Features
+### 🏆 Mission Results Page
+- 📖 AI-generated story based on your decisions
+- 🤖 AI feedback on your performance:
+  - 3 areas for improvement
+  - 3 strengths to maintain
+- 🎓 Receive your final grade and mission summary
 
-- **Dynamic Mission Loading**: Missions are loaded from a MariaDB database, allowing for updates and additions to training scenarios.
-- **Interactive Interface**: Built with PHP, HTML, CSS, and JavaScript to provide a responsive user experience.
-- **Asset Management**: Uses symbolic links in the database to manage assets.
-- **Customizable Scenarios**: Stored HTML content in the database enables flexible mission descriptions and parameters.
+## 🛠️ Key Features
+
+🔄 **Dynamic Mission Loading**
+- Missions stored in MariaDB for easy updates and additions
+
+💻 **Interactive Interface**
+- Built with PHP, HTML, CSS, and JavaScript
+- Responsive design for optimal user experience
+
+🖼️ **Asset Management**
+- Efficient handling of images and resources via symbolic links
+
+🔧 **Customizable Scenarios**
+- Flexible mission descriptions and parameters through stored HTML content
+
+## 🚀 Join the TEWTSIM Experience
+
+Embrace the future of military training with TEWTSIM. Sharpen your tactical acumen, test your decision-making skills, and prepare for real-world scenarios in a safe, digital environment. Whether you're a seasoned officer or a new recruit, TEWTSIM offers a challenging and educational experience tailored to enhance your military prowess.
+
+Remember, in the world of TEWTSIM, every decision counts. Are you ready to command?
 
 ## Future Enhancements
 
