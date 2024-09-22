@@ -68,3 +68,13 @@ Steps (WINDOWS ONLY, database may require reconfiguration for Linux use):
 9. Get an OpenAI key, create a text file in a new folder /xampp/htdocs/TEWTSIM-main/keys/openaikey.txt and paste in your key.
 10. Restart Apache on the XAMPP control panel.
 11. The application should now be functional on http://localhost. Sign in and try it out!
+
+## Adding a scenario
+
+Scenario's are loaded throught the `missions` table in the database. So far, they come with an answer key, a map, a scenario, details, and a mission. All of these items are added into the db, then dynamically loaded through an ID select on button click in mission_select.php. This allows prompts to be changed dynamically based on database entries, simplifying changing any given element of the situation.
+
+Right now, missions are selected via a button on the mission select page which have in-built traits "onclick="selectMission('1', 'desert', 'platoon')". Adding missions is very simple, but will require adding a new HTML element, or changing any of the 3 currently empty scenarios, to reflect the new information of your mission. Here are simple steps to add a mission:
+1. Think of a clever tactical decision game. Refine it into a situation, a mission, and extra details. Find a map, and develop a comprehensive answer key. Take your mission, and use ChatGPT or any new AI to convert it into a HTML frame with a prompt like this "Hello AI, please turn this situation "your situation" into an html element with these three containers as sections: situation, details, mission".
+2. Refer to answers/desertplatoon.txt for how the HTML looks inside the database.
+3. Open the missions database in phpmyadmin, and insert a new row. Set the mission ID, mission name, and paste in your HTML for the situation, mission, and details. Add the symbolic reference for your map (/maps/yourmap.png), and finally add your answerkey, followed with your mission numbers "answerkey_3.txt".
+4. Now, provided the user clicks a button that refers them to mission.php?id=3, they will see your content formatted as HTML in their page, and the AI will generate their story based off the answerkey_3.txt.
