@@ -2,55 +2,57 @@
 
 ## Project Overview
 
-TEWTSIM is a web-based application developed to support the Canadian Armed Forces' training initiatives, specifically designed for the Infantry School. This tool digitizes Tactical Decision Games (TDGs), providing an interactive platform for Canadian soldiers and officers to enhance their critical thinking and decision-making skills in tactical situations.
+TEWTSIM is an innovative web-based application developed to support Canadian Armed Forces training initiatives, with a focus on enhancing tactical decision-making at the Infantry School. This tool digitizes Tactical Decision Games (TDGs), offering an interactive platform for CAF personnel to sharpen their critical thinking skills in simulated combat scenarios.
 
-This project is being developed under the guidance of Warrant Outar, Platoon Warrant of OPP at the Infantry School, whose expertise and support have been invaluable in ensuring the tool's relevance and effectiveness for military training purposes.
+🎖️ **Developed under the guidance of WO Outar, Platoon Warrant of OPP, Infantry School**
 
-🔐 **Access Information:** The application is currently available at [tewtsim.ca](https://tewtsim.ca).
-- For demonstration purposes, use:
-  - Codename: "Ranger"
-  - Password: Select "Red"
-- Feel free to make your own account.
+🚀 **Current Status:** Prototype
+🔐 **Classification:** UNCLASSIFIED
 
-## Key Features and Functionality
+### Try It Out!
+Visit [tewtsim.ca](https://tewtsim.ca) and log in with:
+- Codename: "Ranger"
+- Password: "Red"
 
-### User Authentication
-- Customizable codenames for users
-- Simplified password system using colors (to be replaced with OAuth2 for enhanced security upon wider adoption)
-- Specialized access for Canadian Armed Forces personnel
+Feel free to create your own account!
 
-### Mission Structure
-1. **Mission Start Page**
-   - Selection of platoon-level or section-level tactical situations
-   - Access to mission history
+(Note: OAuth2 implementation is planned for enhanced security upon wider adoption.)
 
-2. **Mission Brief Page**
-   - Comprehensive mission briefing
-   - Tools for note-taking and combat estimate preparation
+## Key Features
 
-3. **Mission Questions Page**
-   - Time-constrained tactical decision-making scenarios
-   - FRAG-O creation exercise
+### 🏁 Mission Start
+- Choose your challenge:
+  - 🔵 Platoon-level operations
+  - 🟢 Section-level tactics
+- Review your mission history
 
-4. **Mission Results Page**
-   - AI-generated outcome based on user decisions
-   - Constructive feedback on performance
-   - Final assessment and mission summary
+### 📋 Mission Brief
+- Comprehensive mission briefing
+- Interactive tools for note-taking and combat estimate preparation
 
-## Technical Specifications
+### ❓ Tactical Decision Point
+- Time-constrained situational questions
+- FRAG-O creation exercise
 
-- **Backend:** PHP with MariaDB for dynamic mission management
-- **Frontend:** HTML, CSS, and JavaScript, ensuring responsive design
+### 🏆 Mission Debrief
+- AI-generated outcome based on your decisions
+- Constructive feedback on performance
+- Final assessment and mission summary
+
+## Technical Stack
+
+- **Backend:** PHP, MariaDB for dynamic mission management
+- **Frontend:** HTML, CSS, JavaScript, ensuring responsive design
 - **Asset Management:** Efficient handling via symbolic links
 - **Scenario Customization:** Flexible mission parameters through stored HTML content
 
 ## Future Enhancements
 
-- Expansion of TDG library in collaboration with Canadian Armed Forces officers
-- Integration of Protected B AI language models for scenario generation
-- Implementation of advanced reasoning capabilities
-- Upgrade to modern frontend (React, Bootstrap) and backend (Node.js) frameworks
-- Potential migration to serverless SQL service for improved efficiency
+- 📚 Expand TDG library in collaboration with CAF officers
+- 🤖 Integrate Protected B AI models for scenario generation
+- 🧠 Implement advanced reasoning capabilities
+- 🚀 Upgrade to modern frameworks (React, Bootstrap, Node.js)
+- ☁️ Potential migration to serverless SQL service for improved efficiency
 
 ## Training Benefits
 
@@ -59,7 +61,7 @@ TEWTSIM aims to enhance:
 2. Decision-making under pressure
 3. Strategic approach exploration
 4. Preparation for field exercises
-5. Data collection for organizational analysis
+5. Data collection for organizational analysis and future development
 
 ## Installation Guide (Windows Environment)
 
@@ -138,10 +140,26 @@ Best Practices:
 
 For assistance with scenario development or technical implementation, please consult me at oliver.cross@forces.gc.ca 
 
+## Contribution Guidelines
+
+We welcome contributions that enhance TEWTSIM's training value. However, remember:
+
+1. Maintain OPSEC at all times
+2. Follow CAF doctrine and training standards
+3. Submit pull requests for review before merging
+
+For assistance with scenario development or technical implementation, please contact oliver.cross@forces.gc.ca
+
 ## Acknowledgments
 
 This project is being developed to support the training initiatives of the Canadian Armed Forces, with particular focus on the needs of the Infantry School. Special thanks to Warrant Outar, Platoon Warrant of OPP at the Infantry School, for providing invaluable guidance and expertise throughout the development process.
 
 ## Disclaimer
 
-This application is a training tool and does not replace official Canadian Armed Forces doctrine or training programs. All users must adhere to proper security protocols and handling of military information.
+TEWTSIM is a training tool and does not replace official Canadian Armed Forces doctrine or training programs. All users must adhere to proper security protocols and handling of military information.
+
+---
+
+Developed with pride in support of the Canadian Armed Forces. 
+
+"Semper Vigilans" 🍁
