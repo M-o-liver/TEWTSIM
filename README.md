@@ -2,6 +2,11 @@
 
 TEWTSIM is an innovative web-based application designed to enhance military training through simulated tactical decision-making exercises. This powerful tool brings Tactical Decision Games (TDGs) into the digital age, offering a dynamic and interactive platform for soldiers, officers, and military strategists to hone their skills.
 
+## Gameplay
+
+**Login**:
+- Allows users to login with a name of hoice 
+
 ## Key Features
 
 - **Dynamic Mission Loading**: Missions are loaded dynamically from a MariaDB database, allowing for easy updates and additions to the training scenarios.
@@ -18,13 +23,14 @@ TEWTSIM is an innovative web-based application designed to enhance military trai
 ## Training Value
 
 TEWTSIM serves as a valuable tool for:
-1. Developing critical thinking skills in tactical situations
-2. Practicing decision-making under pressure
-3. Exploring various strategic approaches
-4. Preparing for real-world military exercises
+1. Developing critical thinking skills in tactical situations;
+2. Practicing decision-making under pressure;
+3. Exploring various strategic approaches;
+4. Preparing for real-world military exercises; and
+5. Creating valuable institutional data that can be used to develop organization-specific artificial intelligence.
 
 By providing a platform for repeated practice and analysis, TEWTSIM contributes to the development of more effective and adaptable military personnel.
 
 ## Future Prospects
 
-The application has the potential to become an essential component in military training programs, offering a cost-effective and scalable solution for tactical exercise simulations. As AI technology advances, TEWTSIM could evolve into a sophisticated training ground for both human officers and AI systems, fostering the development of advanced military strategy and decision-making capabilities.
+The application has the potential to become a  component in military training programs, offering a cost-effective and scalable solution for tactical exercise simulations. As AI technology advances, TEWTSIM could evolve into a sophisticated training ground for both human officers and AI systems, fostering the development of advanced military strategy and decision-making capabilities. 
