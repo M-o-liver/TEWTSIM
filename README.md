@@ -54,7 +54,7 @@ The application has the potential to become a useful component in military train
 
 ## Installation Instructions
 
-Steps (WINDOWS ONLY, Database must be reconfigured for Linux use):
+Steps (WINDOWS ONLY, database may require reconfiguration for Linux use):
 1. Install XAMPP. Only install Apache2, PHP, and MySQL/MariaDB
 2. Git Clone https://github.com/M-o-liver/TEWTSIM to the 'htdocs' folder
 3. Begin the XAMPP control panel
@@ -62,6 +62,7 @@ Steps (WINDOWS ONLY, Database must be reconfigured for Linux use):
 5. Create a new database called "mission_app"
 6. Import C:/xampp/htdocs/TEWTSIM-main/sql/mission_app.sql to this database. Ensure Foreign Key checks are on. 
 7. Click 'config' on Apache2 on the XAMPP control panel and edit httpd.conf
-8. Navigate to where you first see <DocumentRoot = "C:/xampp/htdocs"> and change it to "C:/xampp/htdocs/TEWTSIM-main/". Do so on the line below as well.
+8. Navigate to where you first see DocumentRoot = "C:/xampp/htdocs"> and change it to DocumentRoot "C:/xampp/htdocs/TEWTSIM-main". Do so on the line below as well.
 9. Get an OpenAI key, create a text file in a new folder /xampp/htdocs/TEWTSIM-main/keys/openaikey.txt and paste in your key.
-10. The application should now be functional on http://localhost. Sign in and try it out!
+10. Restart Apache on the XAMPP control panel.
+11. The application should now be functional on http://localhost. Sign in and try it out!
