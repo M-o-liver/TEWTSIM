@@ -1,0 +1,22 @@
+<h2>Scenario</h2>
+            <p>You are the 2d Platoon Commander, Company F, BLT 2/1, 11th MEU. Your company has recently taken over the area of responsibility (AOR) of Jalalabad, Afghanistan. After initial operations, organized resistance has ceased. However, insurgent and tribal fighters remain as active combatants.</p>
+            <p>Your AOR is in an urban environment characterized by densely but haphazardly arranged mud brick houses of one and two stories with flat roofs, with the occasional taller building—usually a mosque or other religiously associated structure.</p>
+            <p>The enemy you face wears no standardized military uniform and often appears in civilian dress, uses Soviet-era infantry weapons (AK–47s, light machine guns, and rocket propelled grenades), and has the occasional command of 82mm mortars and 12.7mm machine guns. Their main tactic is the ambush, initiated by RPG attack or improvised explosive device.</p>
+            <p>The BLT has been relatively successful in matters of civil affairs and civil-military relations, initiating a "weapons buy back program." Of the seven major clans in the AO, the BLT has secured the support of one smaller clan but still faces resistance from several of the larger clans in the city and surrounding area.</p>
+<h2>Mission</h2>
+            <p>Your platoon is on its second patrol. After crossing the Rt 6 bridge, you enter the area controlled by the smaller clan that supports coalition forces. You are moving from south to north, 1st squad on the left flank, you are with 2d Squad in the center, and 3d Squad is on the right.</p>
+            <p>Approximately 20 minutes after crossing the bridge, you hear and see an explosion where you expect 1st Squad to be, followed by automatic weapons fire and semi-automatic weapons fire. 2nd Squad leader executes halt in place and 360 security. Firing continues for 30 seconds before you receive 1st Squad report:</p>
+            <blockquote class="squad-report">
+                "Enemy squad with AKs, RPG, mortar IED. Watson and Perez are down. Need CASEVAC. Break. Recommend 2nd Squad move north of my position and cut off retreating enemy elements. Over."
+            </blockquote>
+            <p class="requirement"><strong>Requirement:</strong> What now, Lieutenant? In a time limit of 5 minutes, determine what actions you would take, what orders you would issue, and what reports, if any, you would make.</p>
+<h2>Details</h2>
+            <ul class="detail-list">
+                <li>Main roads are paved and two lanes wide</li>
+                <li>Side roads are paved but only one and a half lanes wide</li>
+                <li>Numerous narrow dirt alleyways only suitable for foot traffic</li>
+                <li>You have only your organic weapons</li>
+                <li>Radio contact with other squads and Battalion COC, though not always 100% due to urban environment</li>
+                <li>Enemy rarely stands to fight, even after ambushes</li>
+                <li>S-2 believes major engagements often center around religious sites</li>
+            </ul>

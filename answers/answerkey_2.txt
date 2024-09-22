@@ -93,14 +93,16 @@ m. US Military forces are authorized to use force, to include deadly force, in t
 n. ALL personnel MUST report suspected violations of the Law of War committed by any US, friendly, or enemy
 force. Notify your chain of command, Judge advocate, IG, Chaplain, or NCIS. 
 
-Scenario 1 Platoon TDG
-
-First Contact 
-
+Scenario 1: Squad TDG 
+ (Links to “First Contact”: Platoon TDG)
+(Links to “Hostile Intent”: Squad TDG) 
+(Links to “Capital Crimes”: Battalion TDG)
+(Links to “Two Birds, One Stone”: Red Cell TDG)
+Children Bearing Gifts 
 Situation
-You are the 2d Platoon Commander, Company F, BLT 2/1, 11th MEU. Your company has recently taken over the
-area of responsibility (AOR) of Jalalabad, Afghanistan. After initial operations, organized resistance has ceased. 
-However, insurgent and tribal fighters remain as active combatants. 
+You are the 1st Squad leader, 2d Platoon, Company F, BLT 2/1, 11th MEU. Your company has recently taken over
+the area of responsibility (AOR) of Jalalabad, Afghanistan. After initial operations, organized resistance has 
+ceased. However, insurgent and tribal fighters remain as active combatants. 
 Your AOR is in an urban environment characterized by densely but haphazardly arranged mud brick houses of one
 and two stories with flat roofs, with the occasional taller building—usually a mosque or other religiously associated
 structure. The main roads are paved and two lanes wide. Side roads are also paved but only one and a half lanes 
@@ -115,102 +117,89 @@ The BLT has been relatively successful in matters of civil affairs and civil-mil
 the AOR still has its share of insurgent attacks. Of the seven major clans in the AO, the BLT has secured the 
 support of one smaller clan but still faces resistance from several of the larger clans in the city and surrounding area. 
 Currently, your platoon is on its second patrol. After crossing the Rt 6 bridge, you enter the area controlled by the 
-smaller clan that supports coalition forces. You are moving from south to north, 1st squad on the left flank, you are 
-with 2d Squad in the center, and 3d Squad is on the right. You have only your organic weapons and are in radio 
-contact with the other squads and Battalion COC, though such contact is not always 100 percent due to the urban 
-environment.
-Approximately 20 minutes after crossing the bridge, you hear and see an explosion where you expect 1st Squad to be 
-followed by automatic weapons fire and semi-automatic weapons fire. 2nd Squad leader executes halt in place and 
-360 security. Firing continues for 30 seconds before you receive 1st Squad report; “Enemy squad with AKs, RPG,
-mortar IED. Watson and Perez are down. Need CASEVAC. Break. Recommend 2nd Squad move north of my
-position and cut off retreating enemy elements. Over.” 
+smaller clan that supports coalition forces. You are moving from south to north, your squad on the left flank, 2d
+Squad in the center with the command element, and 3d Squad on the right. You have only your organic weapons and 
+are in radio contact with the other squads and command element, though such contact is not always 100 percent due
+to the urban environment.
+Approximately 20 minutes after crossing the bridge, the patrol is broken by the sound of yelling and screaming kids 
+coming at you from your left through an alley. You turn to see four young boys, 8 to 10 years old, each with
+different types of ammunition. One boy has a belt of 12.7mm around his neck; two boys hold 82mm mortar rounds
+like dead fish, from their fin-tails (you note one is fused); and to your horror, the fourth clasps a grenade, spoon in 
+place, like a dead frog, but from your angle you cannot see signs of the pin. 
+At this instant there is the sound of an explosion, and a large dust cloud forms to your front. “Sergeant,” yells your
+1st Fire Team leader, “Watson is down hard. Perez is hit too, but maybe not as bad.” One kid drops his mortar round
+and flees, followed by the kid with the 12.7mm. Then, AK–47 fire erupts from a nearby building behind you. 
+
+
 Requirement
-What now, Lieutenant? In a time limit of 5 minutes, determine what actions you would take, what orders you would 
+What now, Sergeant? In a time limit of 5 minutes, determine what actions you would take, what orders you would 
 issue, and what reports, if any, you would make. 
-18
-4GW TDG Manual
-Draft of 9.2008
+TDG based on TDG 05-2 “Children Bearing Gifts” by Andrew H. Hershey printed in the Marine Corps Gazette. 
 Imagery provided by Google Earth.
 Issues for Consideration 
 1. Who do you believe the enemy is? 
-2. What do you believe your company and battalion commander’s intents are?
-3. In this scenario, how do your actions and orders relate to their intents?
-4. What does the enemy hope to gain from this attack?
-5. How do your actions deprive the enemy of those gains?
-6. How will the enemy counter your platoon’s actions?
-7. Assume that as a result of this incident, two civilians are wounded and one home is damaged. How will the 
-enemy exploit this?
+2. In terms of your mission, what is your most important task?
+3. How do your actions and orders relate to that task?
+4. What is the enemy trying to accomplish?
+5. How will he counter your actions?
+6. What are the effects of your actions and enemy reaction?
+• Number of civilians wounded or killed?
+• Amount of damage and destroyed property? 
+7. How will the enemy exploit the effects of your actions?
 • In 20 minutes? 
 • By the end of the day?
 • The rest of the week?
-8. What can you do to counter his effects at exploitation?
+8. What can you do to counter his efforts at exploitation?
 • Now?
 • After you return to base?
 
-Possible Solution to “First Contact” 
-“Roger, 2nd squad is moving, time now. Break, break, guidons, guidons: 1st squad is in contact with enemy 
-reinforced squad vicinity of GRG XXX. Second platoon will kill or capture the enemy squad. First squad will fix
-the enemy squad. Second squad will move to the vicinity GRG XXX, NE of enemy squad) IOT relieve pressure on
-1st squad and prevent enemy from withdrawing. 3rd squad will move further north to the vicinity GRG XXX (200m
-north of enemy) IOT prevent enemy from withdrawing. I am also going to try to have adjacent elements move to
-establish blocking positions along the west side of the river. I will remain with 2nd squad.” 
-I would send a brief report to the company commander describing the situation and requesting ISR over the ambush 
-site and also requesting that any appropriate adjacent unit coordination be done to block enemy withdrawal across
-the river to the west. 
+Possible Solution to “Children Bearing Gifts” 
+
+Yelling “Suppress that fire from the rear!” ,Squad Leader Sgt. Mueller grabbed the two children and 
+shielded them with his own body. He figured they were local, and if the local clan that now supported the Marines
+had kids killed, they might turn against us. Carefully, he took the possibly live grenade from the one child and held
+it tight. “OK, we’re gonna close up on 1st Fire Team,” he ordered. “Move out! Run!” Still protecting the two
+children, Sgt. Mueller followed his men to where 1st Fire Team had been hit. They had already moved into an
+adjacent building, carrying Watson and Perez. Sgt. Mueller got on his radio to his platoon commander, called a 
+CASEVAC, and said, “Sir, I recommend 2nd Squad cut left and try to cut off anyone they see running away from us. 
+Then have them join up with us and we will turn back together to see if we can capture whoever was shooting at us
+from behind.” His Lieutenant agreed. Hearing sounds from the civilians upstairs, Mueller pointed the two children
+up the stairway and sent them to join their own people. 
+Possible Solution to “Children Bearing Gifts” by GySgt Russell 
+“IED Front, enemy contact to rear” 
+“3rd Fire Team: Take cover and return well aimed direct fire only with positive ID. Do not advance towards 
+enemy.” 
+“2nd Fire Team: Secure grenade and ammo then provide assistance to 1st Fire Team.” 
+“I will go to 1st Fire Team with the RTO and start MEDEVAC and contact HHQ.” 
 
 Question-by-question solutions to "First Contact"
-
 1. Who do you believe the enemy is? 
-I believe that the enemy in this case consists of hard-core insurgents due to the weaponry employed, 
-sophistication and coordination of the attack and also because they did not immediately break contact once 
-friendly forces began to return fire. 
-2. What do you believe the company commander’s intent is?
-If the company commander (or battalion CO for that matter) were standing over my shoulder right now, I 
-believe that he would tell me to kill or capture the insurgents trying to kill my Marines, but that he does not
-want collateral damage or civilian casualties. 
-3. In this scenario, how do your actions and orders relate to that task?
-My instructions to my Marines were to “kill or capture,” the insurgents. I want them to know that killing
-isn’t the only option and firepower isn’t the only tool. I believe that this will help prevent my Marines from
-indiscriminate use of firepower, which, while it might accomplish the short-term goal of killing the enemy, 
-will probably cause a lot of collateral damage and have a long term result of weakening popular support for 
-our mission with the local people. 
-4. What does the enemy hope to gain from this attack?
-I expect that the enemy has several potential goals in mind: First, to inflict casualties on our forces in an
-effort to sap our resolve and will to fight; second, to demonstrate to the people of the town that they are 
-powerful enough to challenge us; and third, to cause us to retaliate in typical American fashion by utilizing
-massive firepower and inflicting casualties on innocent civilians and destroying their property. 
-5. How do your actions deprive the enemy of those gains?
-An effective response on my part will lead to killing or capturing the enemy. Such a success can be used 
-with my Marines to show the results of their efforts and with the local populace to show that we can not 
-only provide security for them, but that we are genuinely concerned for minimizing damage and disruption 
-to their lives and livelihoods. 
-6. How will the enemy counter your platoon’s actions?
-I expect the enemy to break contact as soon as they learn that I am moving to surround them. Therefore,
-speed is absolutely critical to my success. Due to their proximity to the river, it is also likely that they may 
-try to flee across the river in an effort to prevent us from following them. 
-7. Assume as a result of this incident, two civilians are wounded and one home is damaged, how will the enemy plan
-to exploit this?
+The enemy is the insurgents, not the children.
+2. In terms of your mission, what is your most important task? 
+Vague, but assume SASO
+3. How do your actions and orders relate to that task? 
+The squad is part of a platoon conducting presence patrols. 
+4. What is the enemy trying to accomplish? 
+Undermine US authority in area causing local populace to lose faith. 
+5. How will he counter your actions? 
+I expect the enemy to withdraw. 
+6. What are the effects of your actions and enemy reaction?
+• Amount of civilians wounded or killed? IED unknown 
+• Amount of damage and destroyed property? Also unknown 
+7. How will the enemy exploit the effects of your actions?
 • In 20 minutes? 
-They will spread the story that we fired indiscriminately and that we have no regard for the local people. 
-• By the end of the day?
-They will probably exaggerate the scale of the damage and carnage in an effort to sell their initial story of
-American callousness. 
-• The rest of the week?
-They will probably put propaganda up on the internet or posters / graffiti on walls to rally the local populace 
-against American presence. 
+Possible disrupt medevac or continue ambush. 
+• By the end of the day? 
+Blame civilian casualties on US presence. 
+• The rest of the week? 
+Cause fear in locals through intimidation methods. 
 8. What can you do to counter his effects at exploitation?
-Now?
-Secure the scene, care for my casualties and local civilian casualties and take pictures of our forces doing
-so. Talk to the owner of the house that is damaged and let him know that while insurgents were responsible 
-for damaging his house, we would help him rebuild it and give him paperwork to take to the Civil-Military 
-Operations Center (CMOC). Take pictures of the damage to his house for immediate use as part of our
-information operations (IO) campaign. 
-After you return to base?
-Immediately work pictures into IO products and facilitate approval for immediate distribution. Get Tactical 
-Psyops Team (if available) to begin creation of a message to be broadcast via loudspeaker in the streets of
-the town the next morning. Try to get work going on the damaged house as soon as possible. Recommend
-scheduling meeting between commander and local leaders as soon as possible to put pressure on them to 
-aid in improving the local security situation and to impress upon them that insurgents are destroying their 
-town.
+• Now?
+16
+4GW TDG Manual
+Draft of 9.2008
+Do not indiscriminately escalate situation.
+• After you return to base? 
+Increase size of patrols/decrease area for platoon IOT have more available forces in immediate area.
 
 END ANSWERKEY (answerkey now over, expect student responses to situation to follow)

@@ -1,0 +1,31 @@
+<h2>Scenario</h2>
+                <p>You are the 1st Squad leader, 2d Platoon, Company F, BLT 2/1, 11th MEU. Your company has recently taken over the area of responsibility (AOR) of Jalalabad, Afghanistan. After initial operations, organized resistance has ceased. However, insurgent and tribal fighters remain as active combatants.</p>
+                <p>Your AOR is in an urban environment characterized by densely but haphazardly arranged mud brick houses of one and two stories with flat roofs, with the occasional taller building—usually a mosque or other religiously associated structure.</p>
+                <p>The enemy you face wears no standardized military uniform and often appears in civilian dress, uses Soviet-era infantry weapons (AK–47s, light machine guns, and rocket propelled grenades), and has the occasional command of 82mm mortars and 12.7mm machine guns. Their main tactic is the ambush, initiated by RPG attack or improvised explosive device.</p>
+                <p>The BLT has been relatively successful in matters of civil affairs and civil-military relations, initiating a "weapons buy back program." Of the seven major clans in the AO, the BLT has secured the support of one smaller clan but still faces resistance from several of the larger clans in the city and surrounding area.</p>
+
+<h2>Mission</h2>
+                <p>Your platoon is on its second patrol. After crossing the Rt 6 bridge, you enter the area controlled by the smaller clan that supports coalition forces. You are moving from south to north, your squad on the left flank, 2d Squad in the center with the command element, and 3d Squad on the right.</p>
+                <p>Approximately 20 minutes after crossing the bridge, the patrol is broken by the sound of yelling and screaming kids coming at you from your left through an alley. You see four young boys, 8 to 10 years old, each with different types of ammunition:</p>
+                <ul>
+                    <li>One boy has a belt of 12.7mm around his neck</li>
+                    <li>Two boys hold 82mm mortar rounds like dead fish, from their fin-tails (you note one is fused)</li>
+                    <li>The fourth clasps a grenade, spoon in place, like a dead frog, but from your angle you cannot see signs of the pin</li>
+                </ul>
+                <p>At this instant, there is the sound of an explosion, and a large dust cloud forms to your front. Your 1st Fire Team leader reports:</p>
+                <blockquote class="squad-report">
+                  "Sergeant, Watson is down hard. Perez is hit too, but maybe not as bad."
+                </blockquote>
+                <p>One kid drops his mortar round and flees, followed by the kid with the 12.7mm. Then, AK–47 fire erupts from a nearby building behind you.</p>
+                <p class="requirement"><strong>Requirement:</strong> What now, Sergeant? In a time limit of 5 minutes, determine what actions you would take, what orders you would issue, and what reports, if any, you would make.</p>
+
+<h2>Details</h2>
+                <ul class="detail-list">
+                    <li>Main roads are paved and two lanes wide</li>
+                    <li>Side roads are paved but only one and a half lanes wide</li>
+                    <li>Numerous narrow dirt alleyways only suitable for foot traffic</li>
+                    <li>You have only your organic weapons</li>
+                    <li>Radio contact with other squads and command element, though not always 100% due to urban environment</li>
+                    <li>Enemy rarely stands to fight, even after ambushes</li>
+                    <li>S-2 believes major engagements often center around religious sites</li>
+                </ul>

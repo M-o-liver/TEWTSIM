@@ -2,6 +2,8 @@
 
 TEWTSIM is a web-based application designed to support military training through simulated tactical decision-making exercises. This tool aims to bring Tactical Decision Games (TDGs) into a digital format, offering an interactive platform for soldiers and officers to practice their skills.
 
+Log in-to tewtsim.ca with "Ranger" as your codename, and "Red" as your password to see example complete situations!
+
 ## Gameplay
 
 **Login**:

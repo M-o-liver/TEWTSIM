@@ -72,32 +72,37 @@ mysqli_close($conn);
             display: flex;
             height: 100vh;
             width: 100vw;
+            justify-content: center;
         }
         .mission-brief {
             flex: 1;
             overflow-y: auto;
-            padding: 20px;
+            padding: 10px;
             background-color: #3c3c3c;
             max-height: 100vh;
+            width: 50%;
+            max-width: none;
         }
         .notes-container {
             flex: 1;
             display: flex;
             flex-direction: column;
             background-color: #3c3c3c;
-            padding: 20px;
+            padding: 10px;
             max-height: 100vh;
+            width: 50%;
+            max-width: none;
         }
         .tab-container {
             display: flex;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
         .tab {
-            padding: 10px 20px;
+            padding: 8px 16px;
             background-color: #1a1a1a;
             color: #fff;
             cursor: pointer;
-            margin-right: 5px;
+            margin-right: 3px;
         }
         .tab.active {
             background-color: #444;
@@ -112,22 +117,22 @@ mysqli_close($conn);
         }
         #timer {
             position: fixed;
-            top: 10px;
-            right: 10px;
+            top: 5px;
+            right: 5px;
             background-color: #1a1a1a;
-            padding: 10px;
-            border-radius: 5px;
+            padding: 5px;
+            border-radius: 3px;
             z-index: 1000;
         }
         #pdf-viewer {
             width: 100%;
-            height: calc(100vh - 80px);
+            height: calc(100vh - 60px);
             border: none;
         }
         textarea {
-            width: 100%;
-            height: calc(100vh - 150px);
-            margin-bottom: 10px;
+            width: calc(100% - 10px);
+            height: calc(100vh - 120px);
+            margin-bottom: 5px;
         }
         #map {
             display: block;
@@ -135,17 +140,6 @@ mysqli_close($conn);
             margin-right: auto;
             width: 100%;
             height: auto;
-        }
-
-        .mission-brief {
-            max-width: 800px;
-            margin: 0 auto;
-            font-family: 'Arial', sans-serif;
-            line-height: 1.8;
-            color: #e0e0e0;
-            background-color: #1e1e1e;
-            padding: 30px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.7);
         }
 
         h2 {
