@@ -33,48 +33,66 @@ Log in-to tewtsim.ca with "Ranger" as your codename, and "Red" as your password 
 - **Asset Management**: Uses symbolic links in the database to manage assets.
 - **Customizable Scenarios**: Stored HTML content in the database enables flexible mission descriptions and parameters.
 
-## Potential Future Enhancements
+## Future Enhancements
 
-- **Expanded TDG Library**: Possible collaboration with military officers to develop a wider range of TDG problems and solutions.
-- **AI Integration**: Potential implementation of Protected B AI language models to generate diverse scenarios.
-- **Advanced Reasoning Capabilities**: Possible incorporation of step-by-step reasoning modules to improve scenario evaluation.
+🚀 **Expanded TDG Library**
+- Collaborate with military officers to develop a diverse range of Tactical Decision Game (TDG) problems and solutions
+
+🤖 **AI Integration**
+- Implement Protected B AI language models for generating varied scenarios
+
+🧠 **Advanced Reasoning Capabilities**
+- Incorporate step-by-step reasoning modules to enhance scenario evaluation
 
 ## Training Potential
 
-TEWTSIM aims to serve as a tool for:
-1. Developing critical thinking skills in tactical situations
-2. Practicing decision-making under time constraints
-3. Exploring various strategic approaches
-4. Preparing for real-world military exercises
-5. Creating institutional data that could potentially be used for organizational analysis
+TEWTSIM is designed to enhance:
 
-By providing a platform for practice and analysis, TEWTSIM may contribute to the development of military personnel's decision-making skills.
+1. 🎯 Critical thinking in tactical situations
+2. ⏱️ Decision-making under time pressure
+3. 🌐 Exploration of strategic approaches
+4. 🏋️ Preparation for real-world military exercises
+5. 📊 Creation of institutional data for potential organizational analysis
+
+By offering a platform for practice and analysis, TEWTSIM aims to contribute to the development of military personnel's decision-making skills.
 
 ## Future Prospects
 
-The application has the potential to become a useful component in military training programs, offering a cost-effective solution for tactical exercise simulations. As AI technology advances, TEWTSIM could evolve to support both human officers and AI systems in developing military strategy and decision-making capabilities.
+💡 TEWTSIM has the potential to become a valuable component in military training programs:
+- Cost-effective solution for tactical exercise simulations
+- Platform for developing military strategy and decision-making capabilities
+- Adaptable to support both human officers and AI systems as technology advances
 
-## Installation Instructions
+## Installation Guide (Windows Only)
 
-Steps (WINDOWS ONLY, database may require reconfiguration for Linux use):
-1. Install XAMPP. Only install Apache2, PHP, and MySQL/MariaDB
-2. Git Clone https://github.com/M-o-liver/TEWTSIM to the 'htdocs' folder
-3. Begin the XAMPP control panel
-4. Click 'admin' on SQL and navigate to the PhpMyAdmin page
-5. Create a new database called "mission_app"
-6. Import C:/xampp/htdocs/TEWTSIM-main/sql/mission_app.sql to this database. Ensure Foreign Key checks are on. 
-7. Click 'config' on Apache2 on the XAMPP control panel and edit httpd.conf
-8. Navigate to where you first see DocumentRoot = "C:/xampp/htdocs"> and change it to DocumentRoot "C:/xampp/htdocs/TEWTSIM-main". Do so on the line below as well.
-9. Get an OpenAI key, create a text file in a new folder /xampp/htdocs/TEWTSIM-main/keys/openaikey.txt and paste in your key.
-10. Restart Apache on the XAMPP control panel.
-11. The application should now be functional on http://localhost. Sign in and try it out!
+1. Install XAMPP (Apache2, PHP, and MySQL/MariaDB only)
+2. Clone repository: `git clone https://github.com/M-o-liver/TEWTSIM` to the 'htdocs' folder
+3. Launch XAMPP control panel
+4. Access PhpMyAdmin via SQL 'admin' button
+5. Create a new database: "mission_app"
+6. Import `C:/xampp/htdocs/TEWTSIM-main/sql/mission_app.sql` (ensure Foreign Key checks are on)
+7. Edit Apache2 `httpd.conf`:
+   - Set `DocumentRoot` to `"C:/xampp/htdocs/TEWTSIM-main"`
+8. Create `/xampp/htdocs/TEWTSIM-main/keys/openaikey.txt` with your OpenAI key
+9. Restart Apache in XAMPP control panel
+10. Access application at `http://localhost`
 
-## Adding a scenario
+⚠️ Note: Database may require reconfiguration for Linux use
 
-Scenario's are loaded throught the `missions` table in the database. So far, they come with an answer key, a map, a scenario, details, and a mission. All of these items are added into the db, then dynamically loaded through an ID select on button click in mission_select.php. This allows prompts to be changed dynamically based on database entries, simplifying changing any given element of the situation.
+## Adding a Scenario
 
-Right now, missions are selected via a button on the mission select page which have in-built traits "onclick="selectMission('1', 'desert', 'platoon')". Adding missions is very simple, but will require adding a new HTML element, or changing any of the 3 currently empty scenarios, to reflect the new information of your mission. Here are simple steps to add a mission:
-1. Think of a clever tactical decision game. Refine it into a situation, a mission, and extra details. Find a map, and develop a comprehensive answer key. Take your mission, and use ChatGPT or any new AI to convert it into a HTML frame with a prompt like this "Hello AI, please turn this situation "your situation" into an html element with these three containers as sections: situation, details, mission".
-2. Refer to answers/desertplatoon.txt for how the HTML looks inside the database.
-3. Open the missions database in phpmyadmin, and insert a new row. Set the mission ID, mission name, and paste in your HTML for the situation, mission, and details. Add the symbolic reference for your map (/maps/yourmap.png), and finally add your answerkey, followed with your mission numbers "answerkey_3.txt".
-4. Now, provided the user clicks a button that refers them to mission.php?id=3, they will see your content formatted as HTML in their page, and the AI will generate their story based off the answerkey_3.txt.
+Scenarios are managed through the `missions` table in the database:
+
+1. Develop a tactical decision game:
+   - Situation, mission, extra details
+   - Find a suitable map
+   - Create a comprehensive answer key
+2. Use AI to convert the scenario into HTML format
+3. Insert new row in the `missions` database:
+   - Set mission ID and name
+   - Add HTML for situation, mission, and details
+   - Include map reference (`/maps/yourmap.png`)
+   - Add answer key file name (`answerkey_X.txt`)
+4. Access new scenario via `mission.php?id=X`
+
+💡 Tip: Refer to `answers/desertplatoon.txt` for HTML structure in the database
