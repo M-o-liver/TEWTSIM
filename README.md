@@ -1,125 +1,147 @@
 # TEWTSIM: Tactical Exercise Without Troops Simulator
 
-TEWTSIM is a cutting-edge web-based application designed to revolutionize military training through immersive tactical decision-making simulations. This innovative tool digitizes Tactical Decision Games (TDGs), providing an interactive platform for soldiers and officers to hone their critical thinking and decision-making skills.
+## Project Overview
 
-🔐 **Try it out!** Log in to [tewtsim.ca](https://tewtsim.ca) using:
-- Codename: "Ranger"
-- Password: "Red"
+TEWTSIM is a web-based application developed to support the Canadian Armed Forces' training initiatives, specifically designed for the Infantry School. This tool digitizes Tactical Decision Games (TDGs), providing an interactive platform for Canadian soldiers and officers to enhance their critical thinking and decision-making skills in tactical situations.
 
-## 🎮 Gameplay
+This project is being developed under the guidance of Warrant Outar, Platoon Warrant of OPP at the Infantry School, whose expertise and support have been invaluable in ensuring the tool's relevance and effectiveness for military training purposes.
 
-### 👤 Login
-- Choose your own codename
-- Colors used as passwords for enhanced security
-- 🤫 Secret handshake: "What is the MOSID of the Infantry (00180)"
+🔐 **Access Information:** The application is currently available at [tewtsim.ca](https://tewtsim.ca).
+- For demonstration purposes, use:
+  - Codename: "Ranger"
+  - Password: Select "Red"
+- Feel free to make your own account.
 
-### 🏁 Mission Start Page
-- Choose your challenge:
-  - 🔵 Platoon-level situations
-  - 🟢 Section-level situations
-- 📜 Review your past missions
+## Key Features and Functionality
 
-### 📋 Mission Brief Page
-| Left Panel | Right Panel |
-|------------|-------------|
-| Mission Briefing | Notes & Combat Estimate PDF |
+### User Authentication
+- Customizable codenames for users
+- Simplified password system using colors (to be replaced with OAuth2 for enhanced security upon wider adoption)
+- Specialized access for Canadian Armed Forces personnel
 
-⏳ 10-minute countdown to analyze and strategize
-💡 Pro tip: Consider Enemy Courses of Action
+### Mission Structure
+1. **Mission Start Page**
+   - Selection of platoon-level or section-level tactical situations
+   - Access to mission history
 
-### ❓ Mission Questions Page
-- ⏱️ 10 minutes to answer 8 situational questions
-- 📝 Utilize your notes from the briefing
-- 🎖️ Craft a FRAG-O for your team
+2. **Mission Brief Page**
+   - Comprehensive mission briefing
+   - Tools for note-taking and combat estimate preparation
 
-### 🏆 Mission Results Page
-- 📖 AI-generated story based on your decisions
-- 🤖 AI feedback on your performance:
-  - 3 areas for improvement
-  - 3 strengths to maintain
-- 🎓 Receive your final grade and mission summary
+3. **Mission Questions Page**
+   - Time-constrained tactical decision-making scenarios
+   - FRAG-O creation exercise
 
-## 🛠️ Key Features
+4. **Mission Results Page**
+   - AI-generated outcome based on user decisions
+   - Constructive feedback on performance
+   - Final assessment and mission summary
 
-🔄 **Dynamic Mission Loading**
-- Missions stored in MariaDB for easy updates and additions
+## Technical Specifications
 
-💻 **Interactive Interface**
-- Built with PHP, HTML, CSS, and JavaScript
-- Responsive design for optimal user experience
-
-🖼️ **Asset Management**
-- Efficient handling of images and resources via symbolic links
-
-🔧 **Customizable Scenarios**
-- Flexible mission descriptions and parameters through stored HTML content
-
-## 🚀 Join the TEWTSIM Experience
-
-Embrace the future of military training with TEWTSIM. Sharpen your tactical acumen, test your decision-making skills, and prepare for real-world scenarios in a safe, digital environment. Whether you're a seasoned officer or a new recruit, TEWTSIM offers a challenging and educational experience tailored to enhance your military prowess.
-
-Remember, in the world of TEWTSIM, every decision counts. Are you ready to command?
+- **Backend:** PHP with MariaDB for dynamic mission management
+- **Frontend:** HTML, CSS, and JavaScript, ensuring responsive design
+- **Asset Management:** Efficient handling via symbolic links
+- **Scenario Customization:** Flexible mission parameters through stored HTML content
 
 ## Future Enhancements
 
-🚀 **Expanded TDG Library**
-- Collaborate with military officers to develop a diverse range of Tactical Decision Game (TDG) problems and solutions
+- Expansion of TDG library in collaboration with Canadian Armed Forces officers
+- Integration of Protected B AI language models for scenario generation
+- Implementation of advanced reasoning capabilities
+- Upgrade to modern frontend (React, Bootstrap) and backend (Node.js) frameworks
+- Potential migration to serverless SQL service for improved efficiency
 
-🤖 **AI Integration**
-- Implement Protected B AI language models for generating varied scenarios
+## Training Benefits
 
-🧠 **Advanced Reasoning Capabilities**
-- Incorporate step-by-step reasoning modules to enhance scenario evaluation
+TEWTSIM aims to enhance:
+1. Critical thinking in tactical scenarios
+2. Decision-making under pressure
+3. Strategic approach exploration
+4. Preparation for field exercises
+5. Data collection for organizational analysis
 
-## Training Potential
+## Installation Guide (Windows Environment)
 
-TEWTSIM is designed to enhance:
+1. Install XAMPP
+   - Select Apache2, PHP, and MySQL/MariaDB components during installation
 
-1. 🎯 Critical thinking in tactical situations
-2. ⏱️ Decision-making under time pressure
-3. 🌐 Exploration of strategic approaches
-4. 🏋️ Preparation for real-world military exercises
-5. 📊 Creation of institutional data for potential organizational analysis
+2. Clone the TEWTSIM repository
+   - Execute in command prompt: `git clone https://github.com/M-o-liver/TEWTSIM`
+   - Clone into the 'htdocs' folder of your XAMPP installation
 
-By offering a platform for practice and analysis, TEWTSIM aims to contribute to the development of military personnel's decision-making skills.
+3. Configure XAMPP
+   - Launch XAMPP control panel
+   - Start Apache and MySQL services
 
-## Future Prospects
+4. Set up the database
+   - Access phpMyAdmin via the MySQL 'Admin' button in XAMPP
+   - Create a new database named "mission_app"
+   - Import the SQL file: `C:/xampp/htdocs/TEWTSIM-main/sql/mission_app.sql`
+   - Ensure Foreign Key checks are enabled during import
 
-💡 TEWTSIM has the potential to become a valuable component in military training programs:
-- Cost-effective solution for tactical exercise simulations
-- Platform for developing military strategy and decision-making capabilities
-- Adaptable to support both human officers and AI systems as technology advances
+5. Configure Apache
+   - Open Apache's `httpd.conf` file
+   - Locate the `DocumentRoot` directive
+   - Set it to: `DocumentRoot "C:/xampp/htdocs/TEWTSIM-main"`
+   - Save the file
 
-## Installation Guide (Windows Only)
+6. Set up API key
+   - Create a new file: `/xampp/htdocs/TEWTSIM-main/keys/openaikey.txt`
+   - Insert your OpenAI API key into this file
 
-1. Install XAMPP (Apache2, PHP, and MySQL/MariaDB only)
-2. Clone repository: `git clone https://github.com/M-o-liver/TEWTSIM` to the 'htdocs' folder
-3. Launch XAMPP control panel
-4. Access PhpMyAdmin via SQL 'admin' button
-5. Create a new database: "mission_app"
-6. Import `C:/xampp/htdocs/TEWTSIM-main/sql/mission_app.sql` (ensure Foreign Key checks are on)
-7. Edit Apache2 `httpd.conf`:
-   - Set `DocumentRoot` to `"C:/xampp/htdocs/TEWTSIM-main"`
-8. Create `/xampp/htdocs/TEWTSIM-main/keys/openaikey.txt` with your OpenAI key
-9. Restart Apache in XAMPP control panel
-10. Access application at `http://localhost`
+7. Restart Apache
+   - In the XAMPP control panel, stop and restart the Apache service
 
-⚠️ Note: Database may require reconfiguration for Linux use
+8. Access the application
+   - Open a web browser and navigate to `http://localhost`
 
-## Adding a Scenario
+Note: For deployment on Linux systems, database configuration may require adjustments. Consult your system administrator or IT support for assistance with Linux deployment.
 
-Scenarios are managed through the `missions` table in the database:
+## Scenario Management
 
-1. Develop a tactical decision game:
-   - Situation, mission, extra details
-   - Find a suitable map
-   - Create a comprehensive answer key
-2. Use AI to convert the scenario into HTML format
-3. Insert new row in the `missions` database:
-   - Set mission ID and name
-   - Add HTML for situation, mission, and details
-   - Include map reference (`/maps/yourmap.png`)
-   - Add answer key file name (`answerkey_X.txt`)
-4. Access new scenario via `mission.php?id=X`
+TEWTSIM scenarios are managed through the `missions` table in the database. To add a new scenario:
 
-💡 Tip: Refer to `answers/desertplatoon.txt` for HTML structure in the database
+1. Develop the Tactical Decision Game (TDG)
+   - Create a detailed situation description
+   - Define the mission parameters
+   - Compile any additional relevant details
+   - Select an appropriate map for the scenario
+   - Develop a comprehensive answer key
+
+2. Prepare the scenario content
+   - Utilize AI assistance to convert the scenario into HTML format
+   - Ensure all content is properly formatted and structured
+
+3. Add the new scenario to the database
+   - Insert a new row into the `missions` table with the following information:
+     - Assign a unique mission ID
+     - Provide a descriptive mission name
+     - Insert the HTML-formatted situation, mission, and additional details
+     - Include the map reference (e.g., `/maps/scenario_map.png`)
+     - Specify the answer key file name (e.g., `answerkey_X.txt`, where X is the mission ID)
+
+4. Upload associated files
+   - Place the map image in the appropriate directory
+   - Add the answer key file to the designated folder
+
+5. Test the new scenario
+   - Access the new scenario via `mission.php?id=X` (replace X with the assigned mission ID)
+   - Verify all content displays correctly
+   - Ensure the mission flow functions as intended
+
+Best Practices:
+- Maintain consistency in HTML structure across scenarios
+- Follow the established format for situations and answer keys (refer to `answers/desertplatoon.txt` and `answers/answerkey_1.txt` for examples)
+- Regularly backup the database and associated files
+- Consider version control for scenario content to track changes over time
+
+For assistance with scenario development or technical implementation, please consult me at oliver.cross@forces.gc.ca 
+
+## Acknowledgments
+
+This project is being developed to support the training initiatives of the Canadian Armed Forces, with particular focus on the needs of the Infantry School. Special thanks to Warrant Outar, Platoon Warrant of OPP at the Infantry School, for providing invaluable guidance and expertise throughout the development process.
+
+## Disclaimer
+
+This application is a training tool and does not replace official Canadian Armed Forces doctrine or training programs. All users must adhere to proper security protocols and handling of military information.
