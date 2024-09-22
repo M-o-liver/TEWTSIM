@@ -5,7 +5,22 @@ TEWTSIM is an innovative web-based application designed to enhance military trai
 ## Gameplay
 
 **Login**:
-- Allows users to login with a name of hoice 
+- Allows users to login with a name of choice. Passwords have been replaced with colours to minimize risk of people comprismising real-world passwords on a website run on XAMPP.
+- 'Secret handshake' Sign-up question to minimize online-threat-surface from using my API-key: "What is the MOSID of the Infantry (00180)"
+**Mission Start Page**
+- Allows users to pick between situations at the platoon or section level, and review their past missions.
+
+**Mission Brief Page**
+- Split in two containers: Mission Briefing on the left, and notes/Combat Estimate PDF on the right. 
+- Users have 10 minutes to analyze the situation, and produce their best guess at what useful notes will be. Possible suggestion: En CoAs.
+
+**Mission Questions Page**
+- Given 10 minutes, answer 8 quesitons about the situation using your notes (questions mimick deductions from the Estimate process)
+- Finally, produce a FRAG-O to your team.
+
+**Mission Results page**
+- See AI write out your story, rating your answers and giving your mission a realistic outcome. Be warned, a lack of effort can result in a disasterous story!
+- See AI criticize your story, and answers compared to a doctrinal solution. Get 3 points to improve and 3 points to sustain. Recieve a final grade and summary. 
 
 ## Key Features
 
