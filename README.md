@@ -2,17 +2,20 @@
 
 ## Project Overview
 
-TEWTSIM is an innovative web-based application developed to support Canadian Armed Forces training initiatives, with a focus on enhancing tactical decision-making at the Infantry School. This tool digitizes Tactical Decision Games (TDGs), offering an interactive platform for CAF personnel to sharpen their critical thinking skills in simulated combat scenarios.
+TEWTSIM is a web-based application developed to support Canadian Armed Forces training initiatives, with a focus on providing a platform for tactical decision-making at the Infantry School in a low-stakes environment. This tool digitizes Tactical Decision Games (TDGs), offering an interactive platform for CAF personnel to sharpen their critical thinking skills in simulated combat scenarios.
 
 🎖️ **Developed under the guidance of WO Outar, Platoon Warrant of OPP, Infantry School**
 
 🚀 **Current Status:** Prototype
+
 🔐 **Classification:** UNCLASSIFIED
 
 ### Try It Out!
 Visit [tewtsim.ca](https://tewtsim.ca) and log in with:
 - Codename: "Ranger"
 - Password: "Red"
+
+To see some examples of completed missions!
 
 Feel free to create your own account!
 
@@ -48,11 +51,11 @@ Feel free to create your own account!
 
 ## Future Enhancements
 
-- 📚 Expand TDG library in collaboration with CAF officers
+- 🚀 Upgrade to modern frameworks (React, Bootstrap, Node.js) **(In development!)**
+- ☁️ Potential migration to serverless SQL service for improved efficiency
+- 📚 Expand TDG library in collaboration with CAF SMEs 
 - 🤖 Integrate Protected B AI models for scenario generation
 - 🧠 Implement advanced reasoning capabilities
-- 🚀 Upgrade to modern frameworks (React, Bootstrap, Node.js)
-- ☁️ Potential migration to serverless SQL service for improved efficiency
 
 ## Training Benefits
 
@@ -61,7 +64,7 @@ TEWTSIM aims to enhance:
 2. Decision-making under pressure
 3. Strategic approach exploration
 4. Preparation for field exercises
-5. Data collection for organizational analysis and future development
+5. Tactical textual scenario data collection for organizational analysis and future development
 
 ## Installation Guide (Windows Environment)
 
@@ -145,7 +148,7 @@ For assistance with scenario development or technical implementation, please con
 We welcome contributions that enhance TEWTSIM's training value. However, remember:
 
 1. Maintain OPSEC at all times
-2. Follow CAF doctrine and training standards
+2. Follow CAF standards
 3. Submit pull requests for review before merging
 
 For assistance with scenario development or technical implementation, please contact oliver.cross@forces.gc.ca
@@ -162,4 +165,4 @@ TEWTSIM is a training tool and does not replace official Canadian Armed Forces d
 
 Developed with pride in support of the Canadian Armed Forces. 
 
-"Semper Vigilans" 🍁
+🍁
