@@ -4,7 +4,7 @@
 
 TEWTSIM is a web-based application developed to support Canadian Armed Forces training initiatives, with a focus on providing a platform for tactical decision-making at the Infantry School in a low-stakes environment. This tool digitizes Tactical Decision Games (TDGs), offering an interactive platform for CAF personnel to sharpen their critical thinking skills in simulated combat scenarios.
 
-🎖️ **Developed under the guidance of WO Outar, Platoon Warrant of OPP, Infantry School**
+🎖️ **Developed under the guidance of WO Outar, Platoon Warrant of Officer Preparation Platoon, Infantry School**
 
 🚀 **Current Status:** Prototype
 
@@ -95,7 +95,7 @@ TEWTSIM aims to enhance:
    - Open Apache's `httpd.conf` file
    - Locate the `DocumentRoot` directive
    - Set it to: `DocumentRoot "C:/xampp/htdocs/TEWTSIM-main"`
-   - Set the line below to `<Directory "C:/xampp/htdocs/mission_app/TEWTSIM">`
+   - Set the line below to `<Directory "C:/xampp/htdocs/mission_app/TEWTSIM-main">`
    - Save the file
 
 6. Set up API key
