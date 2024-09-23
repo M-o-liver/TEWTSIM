@@ -95,6 +95,7 @@ TEWTSIM aims to enhance:
    - Open Apache's `httpd.conf` file
    - Locate the `DocumentRoot` directive
    - Set it to: `DocumentRoot "C:/xampp/htdocs/TEWTSIM-main"`
+   - Set the line below to `<Directory "C:/xampp/htdocs/mission_app/TEWTSIM">`
    - Save the file
 
 6. Set up API key
