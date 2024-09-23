@@ -22,9 +22,9 @@ Feel free to create your own account!
 (Note: OAuth2 implementation is planned for enhanced security upon wider adoption.)
 
 <p align="center">
-  <img src="assets/readmeimg1.png" alt="Image 1" width="150" />
-  <img src="assets/readmeimg2.png" alt="Image 2" width="150" />
-  <img src="assets/readmeimg3.png" alt="Image 3" width="150" />
+  <img src="assets/readmeimg1.png" alt="Image 1" width="300" />
+  <img src="assets/readmeimg2.png" alt="Image 2" width="300" />
+  <img src="assets/readmeimg3.png" alt="Image 3" width="300" />
 </p>
 
 ## Key Features
